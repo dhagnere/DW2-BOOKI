@@ -116,6 +116,10 @@
   color: white;
 }
 
+.fa-magnifying-glass {
+  display: none;
+}
+
 .filters {
   display: flex;
   flex-wrap: wrap;
@@ -362,23 +366,23 @@
   padding-top: 20px;
 }
 
-.activites-2 {
+.activities-2 {
   display: flex;
   gap: 50px;
   height: 500px;
 }
 
-.width-activites {
+.width-activities {
   width: 25%;
 }
 
-.border-radius {
+.borderradius {
   border-radius: 25px;
   overflow: hidden;
   box-shadow: 3px 3px 20px 0px #c7c7c7;
 }
 
-.vieuxport {
+.vieux-port {
   font-size: 20px;
   font-weight: 700;
   margin: auto 20px;
@@ -427,7 +431,7 @@
   font-size: 20px;
 }
 
-.footerun {
+.footer-1 {
   width: 33%;
   justify-content: center;
   align-items: center;
@@ -441,7 +445,7 @@
   text-decoration: none;
   color: black;
 }
-/*
+/*media queries*/
 @media screen and (max-width: 768px) {
   .body {
     margin-right: 20px;
@@ -456,7 +460,7 @@
     justify-content: space-around;
     gap: 0;
   }
-  .barrebleue {
+  .blue-bar {
     width: 100%;
     left: 0;
     top: 30px;
@@ -465,7 +469,7 @@
   .activites {
     width: 50%;
   }
-  .rechercher {
+  .search-for {
     display: none;
   }
   .fa-magnifying-glass {
@@ -485,18 +489,18 @@
   .marseille {
     width: calc(100% - 70px - 60px);
   }
-  .vieuxport {
+  .vieux-port {
     padding: 10px 0;
   }
-  .bordures {
+  .container-cards {
     flex-direction: column-reverse;
     flex-wrap: wrap;
     gap: 0;
   }
-  .borduredeux {
+  .card-2-aside-right {
     width: 100%;
   }
-  .bordureune {
+  .card-1-left-part {
     background-color: white;
     width: 100%;
     margin-top: 0;
@@ -504,21 +508,21 @@
   .column {
     flex-direction: column;
   }
-  .hotelun {
+  .hotel-1 {
     width: 100%;
   }
-  .activitesdeux {
+  .activities-2 {
     flex-direction: column;
     width: 100%;
     height: initial;
   }
-  .paddingquatre {
+  .padding-4 {
     padding: 5px;
   }
-  .widthactivites {
+  .width-activities {
     width: 100%;
   }
-  .imgwidth {
+  .img-width {
     height: 150px;
   }
   .footer {
@@ -531,29 +535,29 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 991px) {
-  .bordures {
+  .container-cards {
     display: block;
   }
-  .bordureune {
+  .card-1-left-part {
     width: 100%;
   }
-  .titreun {
+  .title-one {
     padding-top: 20px;
   }
-  .borduredeux {
+  .card-2-aside-right {
     width: 100%;
   }
-  .activitesdeux {
+  .activities-2 {
     flex-wrap: wrap;
     height: initial;
   }
   .afficher {
     padding-bottom: 20px;
   }
-  .widthactivites {
+  .width-activities {
     width: calc(50% - 25px);
   }
-  .calanquesorder {
+  .calanques-order {
     order: 1;
   }
 }
@@ -562,22 +566,22 @@
   .body {
     margin: 30px;
   }
-  .bordures {
+  .container-cards {
     gap: 20px;
   }
-  .bordureune {
+  .card-1-left-part {
     width: 60%;
   }
-  .borduredeux {
+  .card-2-aside-right {
     width: 40%;
   }
-  .hotelun {
+  .hotel-1 {
     width: calc(100% / 2 - 25px);
   }
   .column {
     padding: 0 10px;
   }
-  .columndeux {
+  .column-2 {
     padding: 0 30px;
   }
 }
