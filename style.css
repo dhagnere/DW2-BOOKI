@@ -362,17 +362,17 @@
   padding-top: 20px;
 }
 
-.activitesdeux {
+.activites-2 {
   display: flex;
   gap: 50px;
   height: 500px;
 }
 
-.widthactivites {
+.width-activites {
   width: 25%;
 }
 
-.borderradius {
+.border-radius {
   border-radius: 25px;
   overflow: hidden;
   box-shadow: 3px 3px 20px 0px #c7c7c7;
@@ -384,28 +384,28 @@
   margin: auto 20px;
 }
 
-.imgvieuxport,
-.imgpomegues {
+.img-vieuxport,
+.img-pomegues {
   object-fit: cover;
   width: 100%;
   height: calc(100% - 55px);
 }
 
-.grandelement {
+.large-element {
   height: calc(60% - 25px);
 }
 
-.petitelement {
+.small-element {
   height: calc(40% - 25px);
 }
 
-.gapelement {
+.gap-element {
   gap: 50px;
   display: flex;
   flex-direction: column;
 }
 
-.lienimage {
+.link-image {
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -422,7 +422,7 @@
   padding-left: 75px;
 }
 
-.titrequatre {
+.title-4 {
   font-weight: 700;
   font-size: 20px;
 }
@@ -441,7 +441,7 @@
   text-decoration: none;
   color: black;
 }
-
+/*
 @media screen and (max-width: 768px) {
   .body {
     margin-right: 20px;
@@ -581,3 +581,5 @@
     padding: 0 30px;
   }
 }
+
+*/
